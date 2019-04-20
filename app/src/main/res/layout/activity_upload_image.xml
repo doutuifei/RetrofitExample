@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.UploadImageActivity">
+
+    <Button
+        android:id="@+id/uploadImage1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Base64" />
+
+    <Button
+        android:id="@+id/uploadImage2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multipart" />
+
+    <Button
+        android:id="@+id/uploadImage3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image" />
+
+    <Button
+        android:id="@+id/uploadImage4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图文" />
+
+</LinearLayout>
